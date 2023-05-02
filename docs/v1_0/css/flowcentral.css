@@ -1,0 +1,38 @@
+.cover {
+    background: linear-gradient(to left bottom, #FEA947, #C95200) !important;
+    color: #ffffff;
+}
+
+.cover .anchor span {
+    color: #ffffff;
+}
+
+section.cover .cover-main > p:last-child a {
+    border-radius: 4px;
+}
+
+section.cover .cover-main > p:last-child a:last-child {
+    border-radius: 4px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar > h1 {
+  margin: 0 auto 0rem;
+  order: 0;
+}
+
+.search {
+  order: 1;
+}
+
+.sidebar .sidebar-nav {
+  order: 2;
+}
+
+.content {
+  padding-top: 4px;
+}
